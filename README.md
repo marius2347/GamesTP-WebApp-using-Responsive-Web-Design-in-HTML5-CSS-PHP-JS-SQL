@@ -1,4 +1,4 @@
-<h1>GamesTP Webiste Responsive created with HTML 5, PHP, JavaScript and CSS</h1>
+<h1>GamesTP Responsive Website Project - HTML 5, PHP, JavaScript and CSS</h1>
 
 <b>Link: http://gamestp.great-site.net/?i=1<b>
 
