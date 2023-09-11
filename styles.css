@@ -1,0 +1,336 @@
+
+
+/*
+    Afisarea paginilor pe laptop-uri / pc-uri care au o rezolutie minima de 1025px sau mai mare
+*/
+@media (min-width: 1025px) {
+    /* Asez imaginea corespunzatoare paginii in stanga si asez textul in dreapta ei */
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../wallpapers/spiderman.png);
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+        font-family: 'Oswald', sans-serif;
+        padding-top: 100px;
+    }
+    .header-logo {
+        color: white;
+    }
+    header {
+        padding: 25px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        background-color: #121212;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        transition: top 0.2s ease-in-out;
+        width: 100%;
+        height: 100px;
+    }
+    .nav-up {
+        top: -100px;
+    }
+    .example {
+        margin: 0 1rem;  
+        flex-grow: 1; /* <-- THE SECRET SAUCE! */
+        min-width: 35rem;
+    }
+    form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        float: left;
+        width: 80%;
+        background: #f1f1f1;
+    }
+    button {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    form.example button {
+        float: left;
+        width: 20%;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+  
+    form.example button:hover {
+        background: #0b7dda;
+    }
+  
+  
+    form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+    } 
+    .container {
+        padding: 30px 130px 130px 130px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 30px 30px;
+    }
+    h1 {
+        color: white;
+    }
+    .box {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    /* .mobile-responsive {
+    } */
+    .content-green {
+        position: relative;
+        text-align: center;
+        color: black;
+        background-color: greenyellow;
+        background-size: 300px 30px;
+        border-radius: 10px;
+    }
+    .content-red {
+        position: relative;
+        text-align: center;
+        color: black;
+        background-color: red;
+        background-size: 300px 30px;
+        border-radius: 10px;
+    }
+    .content-orange {
+        position: relative;
+        text-align: center;
+        color: black;
+        background-color: orange;
+        background-size: 300px 30px;
+        border-radius: 10px;
+    }
+    .bottom-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-box {
+        width: 300px;
+        border-radius: 10px;
+    }
+    .mobile {
+        display: none;
+    }
+    /* .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    } */
+    /* .sticky + .container {
+        padding-top: 102px;
+      } */
+}
+/*
+Afisarea paginilor pe telefoane / tablete cu o rezolutie minima de 320 px si maxima de 1024px
+
+*/
+@media (min-width: 320px) and (max-width: 1024px) {
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: 
+        linear-gradient(
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../wallpapers/spiderman.png);
+        font-weight:inherit;
+        opacity: 0.8;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #121212;
+        font-family: 'Oswald', sans-serif;
+    }
+    .header-logo {
+        color: white;
+        font-size: 10px;
+    }
+    .header-contact {
+        display: none;
+    }
+    header {
+        padding: 25px;
+        /* display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 50px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #121212;
+        z-index: 1;
+        margin-bottom: 25px;
+        position: fixed;
+        top: 0;
+    }
+    .example {
+        margin: 0 1rem;  
+        flex-grow: 1; /* <-- THE SECRET SAUCE! */
+        min-width: 35rem;
+    }
+    form.example input[type=text] {
+        padding: 10px;
+        font-size: 3vw;
+        border: 1px solid grey;
+        float: left;
+        width: 50vw;
+        background: #f1f1f1;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    button {
+        background-color: transparent;
+        background-repeat: no-repeat;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    form.example button {
+        float: left;
+        width: 20vw;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 3vw;
+        border: 1px solid grey;
+        border-left: none; /* Prevent double borders */
+        cursor: pointer;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+  
+    form.example button:hover {
+        background: #0b7dda;
+    }
+  
+  
+    form.example::after {
+        content: "";
+        clear: both;
+        display: table;
+    } 
+    .container {
+        padding: 30px 20px 20px 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 20px 20px;
+    }
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+        height: 100%;
+    }
+    .img-box {
+        width: 150px;
+        border-radius: 10px;
+    }
+    h1 {
+        color: white;
+    }
+    .box {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        font-size: 2vw;
+    }
+    /* .mobile-responsive {
+    } */
+    .content-green {
+        position: relative;
+        text-align: center;
+        color: black;
+        background-color: greenyellow;
+        background-size: 100px 30px;
+        border-radius: 10px;
+    }
+    .content-red {
+        position: relative;
+        text-align: center;
+        color: black;
+        background-color: red;
+        background-size: 100px 30px;
+        border-radius: 10px;
+    }
+    .content-orange {
+        position: relative;
+        text-align: center;
+        color: black;
+        background-color: orange;
+        background-size: 100px 30px;
+        border-radius: 10px;
+    }
+    .bottom-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.5rem;
+        height: 10px;
+    }
+    .desktop {
+        display: none;
+    }
+    /* .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .sticky + .container {
+        padding-top: 102px;
+      } */
+}
