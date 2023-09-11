@@ -1,7 +1,6 @@
 <h1>GamesTP - HTML5/PHP/JS/CSS Project</h1>
 <br>
 <h2>Features</h2>
-<br>
 <ul>
     <li>Searchbar</li>
     <li>Database</li>
