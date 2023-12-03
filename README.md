@@ -26,6 +26,11 @@
 <br>
 <b> Responsive Web Design: https://bit.ly/responsive-web-design-certifications <b>
 
+<h2>Photos</h2>
+<p>Desktop Website</p>
+<img src="image.png">
+<br>
+
 <h2>Contact</h2>
 
 <b> Email: mariusc0023@gmail.com </b>
