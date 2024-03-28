@@ -1,4 +1,4 @@
-<h1>GamesTP - HTML5/PHP/JS/CSS Project</h1>
+<h1>GamesTP - HTML5/PHP/JS/CSS/SQL Project</h1>
 <br>
 <h2>Features</h2>
 <ul>
