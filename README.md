@@ -14,8 +14,6 @@
 
 <b> Website: http://gamestp.great-site.net/?i=1<b>
 
-<b> Android App: https://bit.ly/android-applicationweb <b>
-
 <h2>Acknowledgments</h2>
 
 <b> HTML5: https://bit.ly/html5-certifications<b>
