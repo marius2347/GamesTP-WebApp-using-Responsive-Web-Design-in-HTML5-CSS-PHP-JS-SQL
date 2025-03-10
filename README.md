@@ -12,21 +12,7 @@
 
 <h2> Links </h2>
 
-<b> Website: http://gamestp.great-site.net/?i=1<b>
 
-<h2>Acknowledgments</h2>
-
-<b> HTML5: https://bit.ly/html5-certifications<b>
-<br>
-<b> JavaScript: https://bit.ly/javascript-certifications <b>
-<br>
-<b> CSS: https://bit.ly/css-certifications <b>
-<br>
-<b> Responsive Web Design: https://bit.ly/responsive-web-design-certifications <b>
-<br>
-<b> PHP: https://bit.ly/php-certificate <b>
-<br>
-<b> SQL: https://bit.ly/sql-certificatee <b>
 <br>
 
 <h2>Photos</h2>
