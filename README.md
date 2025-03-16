@@ -7,7 +7,7 @@
     <li>Background images functionality</li>
     <li>Mobile Responsive</li>
     <li>Category System</li>
-
+    <li>Upload button for adding games as the administrator</li>
 </ul>
 
 <h2> Links </h2>
